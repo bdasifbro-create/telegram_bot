@@ -24,4 +24,3 @@ def home():
 if __name__ == "__main__":
     bot.remove_webhook()
     bot.set_webhook(url=f"https://your-app.up.railway.app/{TOKEN}")
-    app.run(host="0.0.0.0", port=8000)
